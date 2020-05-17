@@ -1,0 +1,29 @@
+Video: https://www.youtube.com/watch?v=EfU4o7U_xAk
+sourcetree - GUI für Github (braucht ein Atlassian Konto - Bitbucket)
+sourcetree ist ein Exefile, aus dem Web geladen und lokal unter e:\users\mik\sourcetree abgelegt
+
+verbindet sich mit Github und dient als grafische Tool für commits, push, Checkout, ...
+
+in Visual Studio Code enthalten, wenn ich ein Github Verzeichnis direkt dort öffene
+
+Im Sourcetree ist immer der zweig fett gedruckt, der derzeit lokal am PC ausgecheckt ist.
+
+comandline Git
+C:\Users\mik\apps
+λ git clone https://github.com/mikatvie/newGitTest.git
+Cloning into 'newGitTest'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Vorgehen Anlage eines neuen Repositories
+1: Github - neues Repository (Readmefile anlegen)
+    - kopieren der URL für Clone in Sourcetree oder lokales Verzeichnis
+2: Sourcetree - clone 
+    - Repository-URL einfügen
+    - Lokales Verzeichnis anlegen (z.B. E:\Users\mik\develop/TutGit1) - mit / folgt das Bookmark (das Verzeichnis wird immer neu erstellt)
+3: neues File im Verzeichnis einfügen
+    - index.html
+4: Sourcetree: Datei Status - Alles vormerken + Comment + commits
+5: push zu main
